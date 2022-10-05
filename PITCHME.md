@@ -41,7 +41,6 @@ theme: d8niz
 - privare (deprive)
 - privatus (withdrawn from public)
 - `belonging to or for the use of one particular person or group of people only`
-
 - concern: info not captured or passed to a third party
 
 ![bg right 70%](assets/privacy.jpg)
