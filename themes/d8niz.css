@@ -1,0 +1,44 @@
+/* @theme d8niz */
+
+@import "default";
+
+section {
+  background-color: #212121;
+  color: #fff;
+  background-image: url("assets/eteration-logo-light.png");
+  background-repeat: no-repeat;
+  background-position: right 40px top 40px;
+  background-size: 8%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section.lead {
+  background-image: url("assets/academy-logo.svg"), url("assets/academy.jpg");
+  background-size: 40%, 65%;
+  background-position: center top 290px, right 100px top 40px;
+  background-repeat: no-repeat, round;
+}
+
+section h1,
+section h2,
+section footer,
+section::after {
+  color: #ff6600;
+}
+
+section table,
+section th,
+section td,
+section tr {
+  background-color: #212121;
+  color: whitesmoke;
+}
+
+section a {
+  color: lightskyblue;
+}
+
+/* Add "Page" prefix and total page number */
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
